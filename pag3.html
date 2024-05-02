@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonna tempalte</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .navbar 
+        {   width:100%;
+            display:flex;
+            margin:auto;
+            padding:35px 0px;
+            align-items: center;
+            justify-content:space-between;
+        }
+        .rightnav ul li
+        {
+            display: inline-block;
+            padding:0px 40px;
+        }
+        .rightnav ul li a
+        {
+            text-decoration: none;
+            color:white;
+        }
+        .logo
+        {
+            color:white;
+        }
+        .page3
+        {
+            width:100%;
+            height:100vh;
+            background-image:linear-gradient(100deg,rgba(255,255,255,0.2) 50%,transparent 20%),url("./diagoona-bg-1.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+        }
+        .quotations1
+        {
+             margin-left:150px;
+             margin-top:-10px;
+        }
+        .img1
+        {
+            margin-left:10px;
+            margin-top:-120px;
+        }
+        .quotations2
+        {
+             margin-left:150px;
+             margin-top:-5px;
+        }
+        .img2
+        {
+            margin-left:350px;
+            margin-top:-100px;
+        } 
+        .content3
+        {
+            margin-left:800px;
+            margin-top:30px;
+        }
+        .img3
+        {
+          margin-left:20px;
+          margin-top:-140px;
+        }
+        .content3 div{
+            padding:10px 0px;
+        }
+        
+        @media only screen and (max-width:480px){
+            .page3{
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                background-size: cover;
+                overflow: scroll;
+            }
+            .content3{
+                margin-top: 0px;
+                margin-left: 0px;
+                padding: 20px;
+            }
+            .navbar{
+                display: flex;
+                flex-direction: column;
+            }
+            .rightnav ul li{
+                display: block;
+            }
+            .img2{
+                margin-left: 240px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page3">
+        <!-- to create navbar for third page -->
+         <div class="navbar">
+             <div class="leftnav"> 
+             <img src="./umberall.jpeg"; width="50px" height="50px" style="margin-left:5px;">
+             <p style="color:white; font-size:30px; margin-left:70px; margin-top:-60px;">D I A G O N N A</p>
+             <h4 style="color:white;margin-left:70px;">new bootstrap template</h4></div>
+             <div class="rightnav">
+                 <ul>
+                     <li><a href="./index.html">HOME</a></li>
+                     <li><a href="./pag2.html">ABOUT</a></li>
+                     <li><a href="./pag3.html"><span style="color:RGB(135,206,235)"> SERVICES</span></a></li>
+                     <li><a href="./pag4.html">CONTACT</a></li>   
+                 </ul></div>
+         </div>
+         <!-- to create content 3 in tempalte page -->
+         <div class="content3">
+             <div class="div1">
+                 <div class="quotations1">
+                 <h2  style="color:white;">Best Service For You</h2><br>
+                 <p  style="color:white;">Our template is simple and effective.This is an<br> alternating  simple content with  Squared size<br>image.Menu hover is #9cc and text #FFF</p><br></div>
+                 <div class="img1">
+                 <img src="./services-1.jpg" width="100px" height="100px;"></div>
+             </div><br>
+              <div class="div2">
+                 <h2  style="color:white;">Customer Satisfaction</h2><br>
+                 <p  style="color:white;"> Feel Free to Contact Template <br>Mo For any kind of question .if you <br>wish to support us .you can<br>Make a Paypal donation.Thankyou</p>
+                 <div class="img2">
+                    <img src="./services-2.jpg" width="100px" height="100px;">
+                </div>
+             </div>
+             <br>
+             <div class="div3">
+                 <div class="quotations2">
+                 <h2  style="color:white;">Template Usage</h2><br>
+                 <p  style="color:white;"> you are free to use this template for your <br>websites either commericial or personal.you are Not allowed to redistribute this <br>Template ZIP File for a download Purpose on ANY template Collection website</p><br></div>
+                 <div class="img3">
+                 <img src="./services-3.jpg" width="100px" height="100px;"></div>
+             </div><br>
+         </div>
+    </div>
+</body>
+</html>

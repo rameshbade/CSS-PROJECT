@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagoona project</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        
+        .page1
+        {
+            width:100%;
+            height:100vh;
+            background-image:linear-gradient(100deg,rgba(255,255,255,0.2) 50%,transparent 20%),url("./diagoona-bg-1.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+        }
+        .navbar 
+        {   width:100%;
+            display:flex;
+            margin:auto;
+            padding:35px 0px;
+            align-items: center;
+            justify-content:space-between;
+        }
+        .rightnav ul li
+        {
+            display: inline-block;
+            padding:0px 40px;
+        }
+        .rightnav ul li a
+        {
+            text-decoration: none;
+            color:white;
+        }
+        .logo
+        {
+            color:white;
+        }
+        .content1
+        {
+            margin-left:800px;
+            margin-top:100px;
+        }
+        .btn
+        {
+            width:100px;
+            height:40px;
+        } 
+        .boxes1{
+            margin-left:300px;
+            margin-top:90px;
+        }
+        .boxes1 div-
+        
+        {
+            width:15px;
+            height:15px;
+            border:1px solid black;
+            display: inline-block;
+            margin:5px;
+        }
+
+
+        @media only screen and (max-width:480px){
+            .page1{
+                height: 100vh;
+                overflow: scroll;
+                background-size: cover;
+            }
+            .content1{
+                margin-left: 0px;
+                margin-top: 0px;
+                padding: 20px;
+            }
+            .boxes1{
+                margin-left: 0px;
+                margin-top: 0px;
+                padding: 20px;
+            }
+            .navbar{
+                display: flex;
+                flex-direction: column;
+            }
+            .leftnav{
+                margin-left: 0px;
+            }
+            .rightnav ul li{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="page1">
+            <!-- to create navbar for firstpage in template -->
+            <div class="navbar">
+                <div class="leftnav"> 
+                    <img src="./umberall.jpeg"; width="50px" height="50px" style="margin-left:5px;">
+                    <p style="color:white; font-size:30px; margin-left:70px; margin-top:-60px;">D I A G O N N A</p>
+                    <h4 style="color:white;margin-left:70px;">new bootstrap template</h4>
+               </div>
+                <div class="rightnav">
+                    <ul>
+                        <li><a href="./index.html"><span style="color: RGB(135,206,235);">HOME</span></a></li>
+                        <li><a href="./pag2.html">ABOUT</a></li>
+                        <li><a href="./pag3.html">SERVICES</a></li>
+                        <li><a href="./pag4.html">CONTACT</a></li>   
+                    </ul></div>
+            </div>
+            <!-- to create conten1  in template page -->
+            <div class="content1">
+                <div class="para1">
+                    <h3 style="color:white; font-size:25px;">DIAGONNA HTML TEMPLATE</h3><br>
+                    <p style="color:white; font-size:18px;">Diagoona is provided by a template Mo website.you are allowed to use this<br>template for your websites.you are not allowed to redistrubte this template<br>zip file for a download purpose on any template collection website</p>
+                </div><br><hr>
+                <div class="para2"><br>;
+                    <p style="color: white; font-size:18px;">Diagoona is bootstrap v44.1logout.this BG is a 50% transparent Nam<br>elementum risus sit amet pulvinar tincident ,toster risus fermuntum enim,non ullm corper tarpis  velit ut tellus<br>Vestibulum ante ipusm primis</p><br><br>
+                    <button class="btn">Continue....</button>
+                </div>
+            </div>
+            <div class="boxes1">
+                <div style="background-color: grey;"></div>
+                <div style="background-color: white;"></div>
+                <div style="background-color:grey;"></div>
+            </div>
+        </div>  
+</body>
+</html>
